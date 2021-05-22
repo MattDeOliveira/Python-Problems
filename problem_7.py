@@ -1,8 +1,8 @@
-primes_to_find = 100
+primes_to_find = 10001
 x = 2
 list_of_primes =[]
 while (len(list_of_primes) < primes_to_find):
-    if all(x % prime_number for prime_number in list_of_primes):
+    if all(x % prime_number for prime_number in list_of_primes): #all must be true
         list_of_primes.append(x)
     x += 1
 
